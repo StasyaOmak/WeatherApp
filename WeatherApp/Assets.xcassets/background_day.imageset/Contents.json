@@ -1,0 +1,32 @@
+{
+  "images" : [
+    {
+      "filename" : "background_day.pdf",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "filename" : "background_day 1.pdf",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "26aa10098817a4ad22811df94a5115c4.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

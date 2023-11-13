@@ -7,15 +7,18 @@
 
 import Foundation
 import CoreLocation
+import Alamofire
+
 
 protocol WeatherManagerDelegate {
+    
     func didUpdateWeather(_ weatherManager: WeatherManager, weather: WeatherModel)
     func didFailWithError(error: Error)
 }
 
 struct WeatherManager {
-    let weatherURL = "https://api.openweathermap.org/data/2.5/weather"
-    let apiId = "d065168e051110093ce5ad24cdd86f8a"
+    
+    let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=cd7908718ac66e5f997f0218623ed51b&units=metric"
     
     var delegate: WeatherManagerDelegate?
     
@@ -33,8 +36,8 @@ struct WeatherManager {
         if let url = URL(string: urlString) {
             let session = URLSession(configuration: .default)
             let task = session.dataTask(with: url) { (data, response, error) in
-                if error != nil {
-                    self.delegate?.didFailWithError(error: error!)
+                if let error {
+                    self.delegate?.didFailWithError(error: error)
                     return
                 }
                 if let safeData = data {

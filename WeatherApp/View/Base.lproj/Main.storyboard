@@ -123,7 +123,7 @@
                         <barButtonItem key="leftBarButtonItem" image="info.circle.fill" catalog="system" id="OI9-5H-Q2U">
                             <color key="tintColor" name="Color"/>
                             <connections>
-                                <segue destination="miL-Qw-20c" kind="show" id="0ay-X5-EhR"/>
+                                <segue destination="miL-Qw-20c" kind="show" identifier="info" id="0ay-X5-EhR"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="gearshape" catalog="system" id="9QX-xr-i41">
@@ -155,6 +155,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_day" translatesAutoresizingMaskIntoConstraints="NO" id="DMh-5q-GRV">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Info" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="Mrq-Y8-SKM">
+                                <rect key="frame" x="41" y="224" width="293" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" name="Color"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" name="Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hJO-eV-rcq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -166,10 +174,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="iRL-5i-Trn"/>
+                    <connections>
+                        <outlet property="appInfoLabel" destination="Mrq-Y8-SKM" id="AJ9-cL-i72"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Pe-Xw-LMM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="825" y="847"/>
+            <point key="canvasLocation" x="824.79999999999995" y="846.9265367316342"/>
         </scene>
         <!--Appearence View Controller-->
         <scene sceneID="NrJ-Nz-SGu">
@@ -271,6 +282,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9td-LD-sEJ" userLabel="WeatherApp">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="Color"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

@@ -106,4 +106,13 @@ extension WeatherViewController: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print(error)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "info" {
+            guard let info = segue.destination as? InfoViewController else { return }
+            info.info = " Project by Anastasiya Omak during the iOS Bootcamp at Accenture. The project involves working with the OpenWeather API"
+            
+        }
+    }
 }

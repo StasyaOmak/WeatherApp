@@ -7,7 +7,7 @@
 
 import UIKit
 import CoreLocation
-import Alamofire
+
 
 class WeatherViewController: UIViewController {
     

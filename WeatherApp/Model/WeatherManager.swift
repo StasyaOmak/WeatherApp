@@ -7,7 +7,7 @@
 
 import Foundation
 import CoreLocation
-import Alamofire
+
 
 
 protocol WeatherManagerDelegate {

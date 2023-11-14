@@ -93,7 +93,7 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NbE-0E-dk0">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="NbE-0E-dk0">
                                         <rect key="frame" x="61.5" y="359" width="232" height="72"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="232" id="Ykg-so-Ykk"/>
@@ -305,7 +305,7 @@
             <color red="0.1764705882" green="0.26274509800000001" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="Color 1">
-            <color red="0.79607844350000001" green="0.52941179279999995" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.79600000381469727" green="0.52899998426437378" blue="0.43900001049041748" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

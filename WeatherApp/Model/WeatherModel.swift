@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Alamofire
+
 
 struct WeatherModel {
     let conditionId: Int

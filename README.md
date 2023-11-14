@@ -27,7 +27,14 @@ WeatherApp includes the following key features:
 5. **City Search Output**:
    - Displays the searched city's name prominently.
    - Provides a clear indication of the location for which weather data is shown.
+   
+6. **Location Button**:
+   - Adds a button for easy access to the user's current location.
+   - Allows users to quickly view weather information for their current location.
 
 ## Screenshots
 
 ![Simulator Screen Recording - iPhone SE (3rd generation) - 2023-11-13 at 15 49 43 (1)](https://github.com/StasyaOmak/Test_Code-Storybord/assets/127408467/57578b5b-3b0d-46ff-a3e0-57c0e3617a7b) ![Simulator Screenshot - iPhone SE (3rd generation) - 2023-11-13 at 15 48 57](https://github.com/StasyaOmak/Test_Code-Storybord/assets/127408467/2aed66d1-40e0-4b91-af6c-d7a437df36fd) ![Simulator Screenshot - iPhone SE (3rd generation) - 2023-11-13 at 15 48 53](https://github.com/StasyaOmak/Test_Code-Storybord/assets/127408467/211b210d-6dec-4887-af9b-5ca23b4dcea9) 
+
+![Simulator Screen Recording - iPhone SE (3rd generation) - 2023-11-14 at 07 48 34 (1)](https://github.com/StasyaOmak/Test_Code-Storybord/assets/127408467/f6f453f8-a493-49c9-89ee-9e3a97afe7de)
+

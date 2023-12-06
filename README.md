@@ -34,8 +34,7 @@ WeatherApp includes the following key features:
 
 ## Screenshots
 
-![Simulator Screen Recording - iPhone SE (3rd generation) - 2023-11-13 at 15 49 43 (1)](https://github.com/StasyaOmak/WeatherApp/assets/127408467/0c28279e-3fd5-4a9f-896b-19135718cea0)  
-![Simulator Screenshot - iPhone SE (3rd generation) - 2023-11-13 at 15 48 53](https://github.com/StasyaOmak/WeatherApp/assets/127408467/ecbf7a29-07e3-43bb-acd8-6587f20d7ca0)  
+![Simulator Screen Recording - iPhone SE (3rd generation) - 2023-11-13 at 15 49 43 (1)](https://github.com/StasyaOmak/WeatherApp/assets/127408467/0c28279e-3fd5-4a9f-896b-19135718cea0) ![Simulator Screenshot - iPhone SE (3rd generation) - 2023-11-13 at 15 48 53](https://github.com/StasyaOmak/WeatherApp/assets/127408467/ecbf7a29-07e3-43bb-acd8-6587f20d7ca0)  
 ![Simulator Screenshot - iPhone SE (3rd generation) - 2023-11-13 at 15 48 57](https://github.com/StasyaOmak/WeatherApp/assets/127408467/4a38ec98-32a2-4248-b996-7df4b3176ed6)
 
 
